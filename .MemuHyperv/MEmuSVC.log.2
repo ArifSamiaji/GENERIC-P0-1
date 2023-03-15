@@ -1,0 +1,41 @@
+MemuHyperv COM Server 5.1.34 r121010 win.amd64 (Jan  9 2020 17:19:37) release log
+00:00:00.010383 main     Log opened 2021-09-04T04:42:31.322431400Z
+00:00:00.010383 main     Build Type: release
+00:00:00.010383 main     OS Product: Windows 10
+00:00:00.010383 main     OS Release: 10.0.19042
+00:00:00.010383 main     OS Service Pack: 
+00:00:00.051209 main     DMI Product Name: VivoBook_ASUSLaptop X415JA_A416JA
+00:00:00.066351 main     DMI Product Version: 1.0       
+00:00:00.066351 main     Host RAM: 3836MB (3.7GB) total, 350MB available
+00:00:00.066351 main     Executable: C:\Program Files (x86)\Microvirt\MEmuHyperv\MEmuSVC.exe
+00:00:00.066351 main     Process ID: 5520
+00:00:00.066351 main     Package type: WINDOWS_64BITS_GENERIC (OSE)
+00:00:00.072772          MemuHyperv: object creation starts
+00:00:00.072772          Home directory: 'C:\Users\Asus\.MemuHyperv'
+00:00:00.072772          Installed Drivers:
+00:00:00.083447            C:\Windows\system32\DRIVERS\MEmuDrv.sys (Version: 5.1.34.21010)
+00:00:00.083944          Loading settings file "C:\Users\Asus\.MemuHyperv\MemuHyperv.xml" with version "1.12-windows"
+00:00:00.084440          USBLibInit: USB Service not found
+00:00:00.107454          netIfGetBoundAdapters: could not find either 'maiwei_MEmuNetLwf' or 'sun_MEmuNetFlt' components (0x1)
+00:00:00.121298          HostDnsMonitor: old information
+00:00:00.121795            no server entries
+00:00:00.121795            no domain set
+00:00:00.121795            no search string entries
+00:00:00.121795          HostDnsMonitor: new information
+00:00:00.121795            server 1: 192.168.105.243
+00:00:00.121795            no domain set
+00:00:00.121795            no search string entries
+00:00:00.121795          HostDnsMonitorProxy::notify
+00:00:00.122799          VD: VDInit finished
+00:00:00.123296          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030a} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.124787          Loading settings file "C:\Program Files (x86)\Microvirt\MEmu\MemuHyperv VMs\MEmu\MEmu.memu" with version "1.12-windows"
+00:00:00.124787          MemuHyperv: object created
+00:00:00.253652          ERROR [COM]: aRC=MEMU_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={b2547866-a0a1-4391-8b86-6952d82efaaa} aComponent={SessionMachine} aText={Could not find a shared folder named 'music'}, preserve=false aResultDetail=0
+00:00:00.254148          ERROR [COM]: aRC=MEMU_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={b2547866-a0a1-4391-8b86-6952d82efaaa} aComponent={SessionMachine} aText={Could not find a shared folder named 'movie'}, preserve=false aResultDetail=0
+00:00:00.254645          ERROR [COM]: aRC=MEMU_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={b2547866-a0a1-4391-8b86-6952d82efaaa} aComponent={SessionMachine} aText={Could not find a shared folder named 'picture'}, preserve=false aResultDetail=0
+00:00:00.255142          ERROR [COM]: aRC=MEMU_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={b2547866-a0a1-4391-8b86-6952d82efaaa} aComponent={SessionMachine} aText={Could not find a shared folder named 'download'}, preserve=false aResultDetail=0
+00:00:14.701343 main     MemuHyperv: object deletion starts
+00:00:14.701343 main     ERROR [COM]: aRC=MEMU_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dd1} aComponent={MediumWrap} aText={Medium 'C:\Program Files (x86)\Microvirt\MEmu\MemuHyperv VMs\MEmu\MEmu71-2021072700003FFF-disk1.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:14.705010 main     ERROR [COM]: aRC=MEMU_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dd1} aComponent={MediumWrap} aText={Medium 'C:\Program Files (x86)\Microvirt\MEmu\MemuHyperv VMs\MEmu\MEmu71-2021072700003FFF-disk2.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:14.705508 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd94a} aComponent={MemuHypervWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:14.705508 main     MemuHyperv: object deleted

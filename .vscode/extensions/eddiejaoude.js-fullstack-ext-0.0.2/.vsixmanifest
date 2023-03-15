@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="js-fullstack-ext" Version="0.0.2" Publisher="eddiejaoude"/>
+    <DisplayName>js-fullstack-ext</DisplayName>
+    <Description xml:space="preserve">Extension containing recommendations for VSCode js fullstack plugins</Description>
+    <Tags>javascript</Tags>
+    <Categories>Extension Packs</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.28.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="2gua.rainbow-brackets,Anjali.clipboard-history,chrmarti.regex,cssho.vscode-svgviewer,dbaeumer.vscode-eslint,eamodio.gitlens,formulahendry.auto-rename-tag,ionutvmi.path-autocomplete,msjsdiag.debugger-for-chrome,naumovs.color-highlight,oderwat.indent-rainbow,pflannery.vscode-versionlens,quicktype.quicktype,robertohuertasm.vscode-icons,robinbentley.sass-indented,shinnn.stylelint,whtouche.vscode-js-console-utils,shan.code-settings-sync,xyz.local-history,wayou.vscode-todo-highlight,wix.vscode-import-cost,YoshinoriN.current-file-path,Zignd.html-css-class-completion" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="git+https://github.com/eddiejaoude/vscode-plugin-recommendations.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="git+https://github.com/eddiejaoude/vscode-plugin-recommendations.git" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.Repository" Value="git+https://github.com/eddiejaoude/vscode-plugin-recommendations.git" />
+        
+      
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/eddiejaoude/vscode-plugin-recommendations/issues" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/eddiejaoude/vscode-plugin-recommendations#readme" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#C80000" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      
+      
+    </Properties>
+    <License>extension/LICENSE.txt</License>
+    <Icon>extension/img/javascript-logo.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/img/javascript-logo.png" Addressable="true" />
+  </Assets>
+</PackageManifest>

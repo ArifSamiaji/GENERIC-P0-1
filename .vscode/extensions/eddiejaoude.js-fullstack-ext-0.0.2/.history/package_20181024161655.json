@@ -1,0 +1,25 @@
+{
+  "name": "vscode-js-fullstack-ext",
+  "version": "1.0.0",
+  "description": "Extension containing recommendations for VSCode plugins js fullstack plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddiejaoude/vscode-plugin-recommendations.git"
+  },
+  "author": "Eddie Jaoude",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddiejaoude/vscode-plugin-recommendations/issues"
+  },
+  "homepage": "https://github.com/eddiejaoude/vscode-plugin-recommendations#readme",
+  "devDependencies": {
+    "generator-code": "^1.1.38",
+    "vsce": "^1.52.0",
+    "yo": "^2.0.5"
+  },
+  "dependencies": {}
+}

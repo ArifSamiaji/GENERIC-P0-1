@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+--><registry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="registry.xsd">
+    
+    <components>
+        <product built="1621002234379" expand="true" features="" offset="10000" platforms="windows linux" status="installed" uid="nb-all" version="12.4.0.0.210514" visible="true">
+            <display-name>
+                <default>Base IDE</default>
+            </display-name>
+            <description>
+                <default>Core Components of an integrated development environment.</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/Asus/.nbi/tmp/icon.png</default-uri>
+                <alternate-uri>resource:data/nb-all/12.4.0.0.210514/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-all/12.4.0.0.210514/windows%20linux%20/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="jdk.location">C:\Program Files\Java\jdk-16.0.2</property>
+                <property name="installation.location">$N{install}/netbeans-12.4</property>
+                <property name="minimum.jdk.version">1.8.0</property>
+                <property name="installation.location.macosx">$N{install}/NetBeans/NetBeans 11.app</property>
+                <property name="installation.location.windows">C:\Program Files\NetBeans-12.4</property>
+                <property name="installation.timestamp">1631524921665</property>
+                <property name="netbeans.summary.message.text">All plugins are up to date.
+
+</property>
+                <property name="desktop.shortcut.location">all.users</property>
+                <property name="start.menu.shortcut.location">all.users</property>
+            </properties>
+            <configuration-logic>
+                <file md5="0b35ab661988b4a71af628099114fa37" size="30100">
+                    <default-uri>file:/C:/Users/Asus/.nbi/tmp/logic,1.jar</default-uri>
+                    <alternate-uri>resource:data/nb-all/12.4.0.0.210514/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-all/12.4.0.0.210514/windows%20linux%20/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="09f48388bdef91aba2420bfc37bfd95d" size="125179350">
+                    <default-uri>resource:data/nb-all/12.4.0.0.210514/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-all/12.4.0.0.210514/windows%20linux%20/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>238057760</disk-space>
+            </system-requirements>
+            <dependencies>
+                <install-after uid="jdk"/>
+                <install-after uid="jre-nested"/>
+            </dependencies>
+        </product>
+        <product built="1621002244296" expand="false" features="" offset="12500" platforms="windows linux" status="installed" uid="nb-extide" version="12.4.0.0.210514" visible="true">
+            <display-name>
+                <default>Extended IDE</default>
+            </display-name>
+            <description>
+                <default>Additional components of an integrated development environment.</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/Asus/.nbi/tmp/icon.png.0</default-uri>
+                <alternate-uri>resource:data/nb-extide/12.4.0.0.210514/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-extide/12.4.0.0.210514/windows%20linux/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="installation.location">C:\Program Files\NetBeans-12.4</property>
+                <property name="show-in-wizard">false</property>
+            </properties>
+            <configuration-logic>
+                <file md5="7c1e769ead619d7c93fba263a5a946e1" size="2437">
+                    <default-uri>file:/C:/Users/Asus/.nbi/tmp/logic,1.jar.0</default-uri>
+                    <alternate-uri>resource:data/nb-extide/12.4.0.0.210514/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-extide/12.4.0.0.210514/windows%20linux/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="bb00c63750d3f2c038be477b406983bc" size="330753">
+                    <default-uri>resource:data/nb-extide/12.4.0.0.210514/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-extide/12.4.0.0.210514/windows%20linux/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>1352256</disk-space>
+            </system-requirements>
+            <dependencies>
+                <requirement uid="nb-all" version-lower="12.4.0.0.210514" version-upper="12.4.0.0.210514"/>
+                <install-after uid="jre-nested"/>
+            </dependencies>
+        </product>
+        <product built="1621002269161" expand="false" features="" offset="20000" platforms="windows linux" status="installed" uid="nb-javase" version="12.4.0.0.210514" visible="true">
+            <display-name>
+                <default>Java SE</default>
+            </display-name>
+            <description>
+                <default>Essential tools for programming in Java, including an editor, debugger, profiler, refactoring support, and award winning drag-and-drop GUI design tool (formerly known as Project Matisse).</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/Asus/.nbi/tmp/icon.png.1</default-uri>
+                <alternate-uri>resource:data/nb-javase/12.4.0.0.210514/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-javase/12.4.0.0.210514/windows%20linux/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="installation.location">C:\Program Files\NetBeans-12.4</property>
+                <property name="jre.allowed">false</property>
+            </properties>
+            <configuration-logic>
+                <file md5="c170c84a9af82a4a7655d51c1f24ddc3" size="4672">
+                    <default-uri>file:/C:/Users/Asus/.nbi/tmp/logic,1.jar.2</default-uri>
+                    <alternate-uri>resource:data/nb-javase/12.4.0.0.210514/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-javase/12.4.0.0.210514/windows%20linux/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="cc7d021dafb821eb31774b152bbe5081" size="91436272">
+                    <default-uri>resource:data/nb-javase/12.4.0.0.210514/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-javase/12.4.0.0.210514/windows%20linux/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>177548456</disk-space>
+            </system-requirements>
+            <dependencies>
+                <requirement uid="nb-all" version-lower="12.4.0.0.210514" version-upper="12.4.0.0.210514"/>
+                <requirement uid="nb-webcommon" version-lower="12.4.0.0.210514" version-upper="12.4.0.0.210514"/>
+            </dependencies>
+        </product>
+        <product built="1621002323672" expand="false" features="" offset="30000" platforms="windows linux" status="installed" uid="nb-javaee" version="12.4.0.0.210514" visible="true">
+            <display-name>
+                <default>Java EE</default>
+            </display-name>
+            <description>
+                <default>Tools for creating Java web and enterprise applications compatible with Java EE specifications. Includes support for servlets, JSPs, tag libraries, Java Server Faces, Java Persistence API, Enterprise Java Beans, JAX-WS and RESTful web services, Spring and Struts.</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/Asus/.nbi/tmp/icon.png.2</default-uri>
+                <alternate-uri>resource:data/nb-javaee/12.4.0.0.210514/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-javaee/12.4.0.0.210514/windows%20linux/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="installation.location">C:\Program Files\NetBeans-12.4</property>
+            </properties>
+            <configuration-logic>
+                <file md5="add61616c664777205a8172a9ed287e6" size="6174">
+                    <default-uri>file:/C:/Users/Asus/.nbi/tmp/logic,1.jar.3</default-uri>
+                    <alternate-uri>resource:data/nb-javaee/12.4.0.0.210514/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-javaee/12.4.0.0.210514/windows%20linux/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="2bc85445d7181d297127acac6fa23f7b" size="171077066">
+                    <default-uri>resource:data/nb-javaee/12.4.0.0.210514/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-javaee/12.4.0.0.210514/windows%20linux/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>243166739</disk-space>
+            </system-requirements>
+            <dependencies>
+                <requirement uid="nb-all" version-lower="12.4.0.0.210514" version-upper="12.4.0.0.210514"/>
+                <requirement uid="nb-javase" version-lower="12.4.0.0.210514" version-upper="12.4.0.0.210514"/>
+                <requirement uid="nb-extide" version-lower="12.4.0.0.210514" version-upper="12.4.0.0.210514"/>
+            </dependencies>
+        </product>
+        <product built="1621002295666" expand="false" features="" offset="42500" platforms="windows linux" status="installed" uid="nb-webcommon" version="12.4.0.0.210514" visible="true">
+            <display-name>
+                <default>HTML5/JavaScript</default>
+            </display-name>
+            <description>
+                <default>Tools for developing HTML5 web applications, Node.js applications and Cordova applications, both on the desktop, as well as with iOS and Android devices. Includes HTML5/Javascript application project type, page inspector and visual CSS style editor, editors for HTML, JavaScript, CSS, SASS and LESS, and a JavaScript debugger.</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/Asus/.nbi/tmp/icon.png.3</default-uri>
+                <alternate-uri>resource:data/nb-webcommon/12.4.0.0.210514/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-webcommon/12.4.0.0.210514/windows%20linux/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="installation.location">C:\Program Files\NetBeans-12.4</property>
+            </properties>
+            <configuration-logic>
+                <file md5="ec56770baa9eee62c258aa114eb8bd59" size="2423">
+                    <default-uri>file:/C:/Users/Asus/.nbi/tmp/logic,1.jar.1</default-uri>
+                    <alternate-uri>resource:data/nb-webcommon/12.4.0.0.210514/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-webcommon/12.4.0.0.210514/windows%20linux/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="f5fcf3b937deb2f458f47d148ab22c29" size="32796305">
+                    <default-uri>resource:data/nb-webcommon/12.4.0.0.210514/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-webcommon/12.4.0.0.210514/windows%20linux/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>111320525</disk-space>
+            </system-requirements>
+            <dependencies>
+                <requirement uid="nb-all" version-lower="12.4.0.0.210514" version-upper="12.4.0.0.210514"/>
+                <requirement uid="nb-extide" version-lower="12.4.0.0.210514" version-upper="12.4.0.0.210514"/>
+                <install-after uid="jre-nested"/>
+            </dependencies>
+        </product>
+        <product built="1621002340893" expand="false" features="" offset="45000" platforms="windows linux" status="installed" uid="nb-php" version="12.4.0.0.210514" visible="true">
+            <display-name>
+                <default>PHP</default>
+            </display-name>
+            <description>
+                <default>Tools for developing PHP applications, including PHP editor and debugger, project management, integration with Apache server, support for MySQL and other databases, FTP upload and download, JavaScript support and other features.</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/Asus/.nbi/tmp/icon.png.4</default-uri>
+                <alternate-uri>resource:data/nb-php/12.4.0.0.210514/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-php/12.4.0.0.210514/windows%20linux/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="installation.location">C:\Program Files\NetBeans-12.4</property>
+            </properties>
+            <configuration-logic>
+                <file md5="c08a3d1119f9e203c2e088bd97dfea58" size="2376">
+                    <default-uri>file:/C:/Users/Asus/.nbi/tmp/logic,1.jar.4</default-uri>
+                    <alternate-uri>resource:data/nb-php/12.4.0.0.210514/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-php/12.4.0.0.210514/windows%20linux/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="f5e80b2a093dfa5dff622aad977a5cc2" size="6897775">
+                    <default-uri>resource:data/nb-php/12.4.0.0.210514/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/workspace/netbeans-TLP_netbeans_release124/distpreparation/netbeans/12.4/vc1/installer/dist/installers/registry-temp/components/products/nb-php/12.4.0.0.210514/windows%20linux/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>21839405</disk-space>
+            </system-requirements>
+            <dependencies>
+                <requirement uid="nb-all" version-lower="12.4.0.0.210514" version-upper="12.4.0.0.210514"/>
+                <requirement uid="nb-webcommon" version-lower="12.4.0.0.210514" version-upper="12.4.0.0.210514"/>
+                <install-after uid="jre-nested"/>
+            </dependencies>
+        </product>
+    </components>
+</registry>

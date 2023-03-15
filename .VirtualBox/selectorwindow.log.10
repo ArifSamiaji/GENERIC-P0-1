@@ -1,0 +1,17 @@
+00:00:00.692016 VirtualBox GUI VM Selector Window 6.1.26 r145957 win.amd64 (Jul 28 2021 17:15:09) release log
+00:00:00.692018 Log opened 2021-12-31T06:39:27.740714600Z
+00:00:00.692018 Build Type: release
+00:00:00.692021 OS Product: Windows 10
+00:00:00.692022 OS Release: 10.0.19042
+00:00:00.692023 OS Service Pack: 
+00:00:00.718746 DMI Product Name: VivoBook_ASUSLaptop X415JA_A416JA
+00:00:00.728024 DMI Product Version: 1.0       
+00:00:00.728048 Firmware type: UEFI
+00:00:00.728397 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.728411 Host RAM: 3836MB (3.7GB) total, 1063MB available
+00:00:00.728424 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.728427 Process ID: 14816
+00:00:00.728428 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.728706 Qt version: 5.6.2
+00:00:00.785253 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.541774 GUI: UIMediumEnumerator: Medium-enumeration finished!

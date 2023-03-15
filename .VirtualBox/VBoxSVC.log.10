@@ -1,0 +1,85 @@
+00:00:00.006232 main     VirtualBox COM Server 6.1.26 r145957 win.amd64 (Jul 28 2021 17:15:09) release log
+00:00:00.006237 main     Log opened 2021-12-23T13:57:55.044504400Z
+00:00:00.006238 main     Build Type: release
+00:00:00.006247 main     OS Product: Windows 10
+00:00:00.006249 main     OS Release: 10.0.19042
+00:00:00.006251 main     OS Service Pack: 
+00:00:00.054659 main     DMI Product Name: VivoBook_ASUSLaptop X415JA_A416JA
+00:00:00.077151 main     DMI Product Version: 1.0       
+00:00:00.077170 main     Firmware type: UEFI
+00:00:00.077459 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.077554 main     Host RAM: 3836MB (3.7GB) total, 449MB available
+00:00:00.077561 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.077563 main     Process ID: 17092
+00:00:00.077564 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.114552          VirtualBox: object creation starts
+00:00:00.115051          Home directory: 'C:\Users\Asus\.VirtualBox'
+00:00:00.116901          Installed Drivers:
+00:00:00.123313            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.26.45957)
+00:00:00.125470            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.26.45957)
+00:00:00.126560            C:\Windows\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.26.45957)
+00:00:00.128454            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.26.45957)
+00:00:00.143371          Loading settings file "C:\Users\Asus\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.145958          usbLibGetDevices: Starting USB device enumeration
+00:00:00.146194          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&27bcf9ab&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.147639          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&27bcf9ab&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.152902          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.152995          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x5a11)
+00:00:00.153101          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0aaa)
+00:00:00.372371          HostDnsMonitor: initializing
+00:00:00.390033          HostDnsMonitor: updating information
+00:00:00.390037          HostDnsMonitor: unchanged
+00:00:00.500240          VD: VDInit finished with VINF_SUCCESS
+00:00:00.503267          Loading settings file "C:\Users\Asus\VirtualBox VMs\AJI\AJI.vbox" with version "1.16-windows"
+00:00:00.504906          Loading settings file "C:\Users\Asus\VirtualBox VMs\ARIF SAMIAJI\ARIF SAMIAJI.vbox" with version "1.16-windows"
+00:00:00.506438          Loading settings file "C:\Users\Asus\VirtualBox VMs\ARCHLINUX ARIF SAMIAJI\ARCHLINUX ARIF SAMIAJI.vbox" with version "1.16-windows"
+00:00:00.508073          Loading settings file "C:\Users\Asus\VirtualBox VMs\LINUX UBUNTU\LINUX UBUNTU.vbox" with version "1.16-windows"
+00:00:00.509753          Loading settings file "C:\Users\Asus\VirtualBox VMs\LINUXMINT\LINUXMINT.vbox" with version "1.16-windows"
+00:00:00.511398          Loading settings file "C:\Users\Asus\VirtualBox VMs\Linux Ubuntu Biasa\Linux Ubuntu Biasa.vbox" with version "1.16-windows"
+00:00:00.513585          VirtualBox: object created
+00:03:37.664385          Launched VM: 70463600 pid: 8552 (0x2168) frontend: GUI/Qt name: ARCHLINUX ARIF SAMIAJI
+00:03:46.188663          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:03:46.770963          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:07:31.928952          Saving settings file "C:\Users\Asus\VirtualBox VMs\ARCHLINUX ARIF SAMIAJI\ARCHLINUX ARIF SAMIAJI.vbox" with version "1.16-windows"
+00:07:44.391401 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:44.392928 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&27bcf9ab&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:07:44.394491 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&27bcf9ab&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:07:44.394994 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:14:53.572909 dns-monitor HostDnsMonitor: updating information
+00:14:53.572988 dns-monitor HostDnsMonitor: unchanged
+00:14:55.862152 dns-monitor HostDnsMonitor: updating information
+00:14:55.862241 dns-monitor HostDnsMonitor: old information
+00:14:55.862255 dns-monitor   no server entries
+00:14:55.862266 dns-monitor   no domain set
+00:14:55.862274 dns-monitor   no search string entries
+00:14:55.862283 dns-monitor HostDnsMonitor: new information
+00:14:55.862290 dns-monitor   server 1: 192.168.1.1
+00:14:55.862300 dns-monitor   no domain set
+00:14:55.862308 dns-monitor   no search string entries
+00:21:57.433695 MainPower Host suspending: Paused 0 VMs
+00:22:37.899634 MainPower Host resumed: Resumed 0 VMs
+00:22:39.927558 dns-monitor HostDnsMonitor: updating information
+00:22:39.928199 dns-monitor HostDnsMonitor: unchanged
+00:23:19.254855 MainPower Host suspending: Paused 0 VMs
+00:24:39.880274 MainPower Host resumed: Resumed 0 VMs
+00:24:41.934405 dns-monitor HostDnsMonitor: updating information
+00:24:41.934511 dns-monitor HostDnsMonitor: unchanged
+00:36:19.271514          Launched VM: 70485872 pid: 19344 (0x4b90) frontend: GUI/Qt name: LINUXMINT
+00:36:28.183062          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:36:28.943936          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:37:36.571574          Saving settings file "C:\Users\Asus\VirtualBox VMs\LINUXMINT\LINUXMINT.vbox" with version "1.16-windows"
+00:37:37.361663          Saving settings file "C:\Users\Asus\VirtualBox VMs\LINUXMINT\LINUXMINT.vbox" with version "1.16-windows"
+00:37:43.848710          Saving settings file "C:\Users\Asus\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:43.865140          Saving settings file "C:\Users\Asus\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:43.872469          Saving settings file "C:\Users\Asus\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:37:49.445946 main     VirtualBox: object deletion starts
+00:37:49.447057 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Asus\VirtualBox VMs\AJI\AJI.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:37:49.453142 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Asus\VirtualBox VMs\ARIF SAMIAJI\ARIF SAMIAJI.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:37:49.454039 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Asus\VirtualBox VMs\ARCHLINUX ARIF SAMIAJI\ARCHLINUX ARIF SAMIAJI.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:37:49.455304 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Asus\VirtualBox VMs\LINUX UBUNTU\LINUX UBUNTU.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:37:49.455800 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Asus\VirtualBox VMs\LINUXMINT\LINUXMINT.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:37:49.456284 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Asus\VirtualBox VMs\Linux Ubuntu Biasa\Linux Ubuntu Biasa.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:37:49.458709 main     HostDnsMonitor: shutting down ...
+00:37:49.459054 main     HostDnsMonitor: shut down
+00:37:49.466555 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:37:49.467435 main     VirtualBox: object deleted

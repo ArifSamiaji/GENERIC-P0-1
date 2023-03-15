@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="frontend-pack-js" Version="0.0.3" Publisher="bcakyz" />
+			<DisplayName>Frontend Pack(JS)</DisplayName>
+			<Description xml:space="preserve">For JavaScript, React and Native</Description>
+			<Tags>javascript,__web_extension</Tags>
+			<Categories>Extension Packs</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.65.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="burkeholland.simple-react-snippets,xabikos.javascriptsnippets,esbenp.prettier-vscode,capaj.vscode-exports-autocomplete,gottfired.css2react,angryobject.react-pure-to-class-vscode,pflannery.vscode-versionlens,richie5um2.vscode-sort-json,wix.vscode-import-cost,jpoissonnier.vscode-styled-components,dbaeumer.vscode-eslint,xabikos.JavaScriptSnippets,mariusschulz.yarn-lock-syntax,lxspandora.vscode-styled-components-snippets,paulmolluzzo.convert-css-in-js,bierner.lit-html,dsznajder.es7-react-js-snippets,christian-kohler.npm-intellisense,christian-kohler.path-intellisense,eg2.vscode-npm-script,firsttris.vscode-jest-runner,herrmannplatz.npm-dependency-links,howardzuo.vscode-npm-dependency,juliensanmartin.vscode-depcheck,ms-vscode.typescript-javascript-grammar,ms-vscode.vscode-typescript-tslint-plugin,pmneo.tsimporter,rbbit.typescript-hero,sburg.vscode-javascript-booster,steoates.autoimport,stringham.move-ts,quicktype.quicktype,jasonnutter.search-node-modules,andys8.jest-snippets,Orta.vscode-jest,jundat95.react-native-snippet,msjsdiag.vscode-react-native" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace,web" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				
+				
+				
+				
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				
+				
+			</Properties>
+			
+			<Icon>extension/image/js.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/image/js.png" Addressable="true" />
+		</Assets>
+	</PackageManifest>

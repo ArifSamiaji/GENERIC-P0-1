@@ -1,0 +1,55 @@
+{
+    "name": "js-fullstack-ext",
+    "displayName": "js-fullstack-ext",
+    "description": "Extension containing recommendations for VSCode js fullstack plugins",
+    "version": "0.0.1",
+    "publisher": "eddiejaoude",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "icon": "img/javascript-logo.png",
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "2gua.rainbow-brackets",
+        "Anjali.clipboard-history",
+        "chrmarti.regex",
+        "cssho.vscode-svgviewer",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "formulahendry.auto-rename-tag",
+        "ionutvmi.path-autocomplete",
+        "msjsdiag.debugger-for-chrome",
+        "naumovs.color-highlight",
+        "pflannery.vscode-versionlens",
+        "robertohuertasm.vscode-icons",
+        "robinbentley.sass-indented",
+        "shinnn.stylelint",
+        "whtouche.vscode-js-console-utils",
+        "shan.code-settings-sync",
+        "xyz.local-history",
+        "YoshinoriN.current-file-path",
+        "Zignd.html-css-class-completion"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eddiejaoude/vscode-plugin-recommendations.git"
+    },
+    "author": "Eddie Jaoude",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/eddiejaoude/vscode-plugin-recommendations/issues"
+    },
+    "homepage": "https://github.com/eddiejaoude/vscode-plugin-recommendations#readme",
+    "devDependencies": {
+        "generator-code": "^1.1.38",
+        "vsce": "^1.52.0",
+        "yo": "^2.0.5"
+    },
+    "dependencies": {}
+}
